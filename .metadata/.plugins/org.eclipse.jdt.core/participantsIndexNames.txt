@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+E:\STUDYING DATA\3.4 BTCK_LTM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1123138725.index
+\BaiTapCK_LTM\src\main\java
+E:\STUDYING DATA\3.4 BTCK_LTM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2525968370.index
+\CK_LTM\src\main\java
