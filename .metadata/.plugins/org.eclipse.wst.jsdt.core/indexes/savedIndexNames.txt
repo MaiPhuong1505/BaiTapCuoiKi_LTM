@@ -1,7 +1,8 @@
-INDEX VERSION 1.4+E:\STUDYING DATA\3.4 BTCK_LTM\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2916902311.index
-782234722.index
-181445697.index
-3658168444.index
-320362605.index
+INDEX VERSION 1.4+D:\Lap_Trinh_Mang\BaiTapCuoiKi_LTM\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2544745021.index
+2650998637.index
 3819078410.index
+2525968370.index
+3243656923.index
+108771059.index
+483609378.index

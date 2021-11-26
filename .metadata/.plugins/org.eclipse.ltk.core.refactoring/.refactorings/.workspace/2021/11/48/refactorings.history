@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;BaiTapCK_LTM&apos;" deleteContents="true" description="Delete resource &apos;BaiTapCK_LTM&apos;" element1="/BaiTapCK_LTM" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1637639124475"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;BaiTapCK_LTM&apos;" deleteContents="true" description="Delete resource &apos;BaiTapCK_LTM&apos;" element1="/BaiTapCK_LTM" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1637639124475"/>&#x0A;<refactoring comment="Delete resource &apos;Servers&apos;" deleteContents="true" description="Delete resource &apos;Servers&apos;" element1="/Servers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1637898570919"/>
 </session>
