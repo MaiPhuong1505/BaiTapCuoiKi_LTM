@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import model.dao.DAO;
+
 /**
  * Servlet implementation class ProcessController
  */
@@ -41,58 +43,26 @@ public class ProcessController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("hello");
 		int n = Integer.parseInt(request.getParameter("number"));
+		DAO d = new DAO();
+		d.caculate_factorial(n);
 		response.setContentType("text/html");
-		Xuli p = null;
+//		Xuligiaithua p = null;
 		PrintWriter out = response.getWriter();
-		
-		if (p==null) {
-			p = new Xuli(n);
-			p.start();
-		}
-		if (p.i!=n)
-			response.setIntHeader("Refresh", 1);
+//		
+//		if (p==null) {
+//			p = new Xuligiaithua(n);
+//			p.start();
+//		}
+//		if (p.i!=n)
+//			response.setIntHeader("Refresh", 1);
 		out.print("<html><head></head><body>");
-		out.print(p.result);
+//		out.print(p.result);
+		out.print("Hello");
 		out.print("</body></html>");
+//		calculate_exponent e = new calculate_exponent(300, 500);
+//		e.start();
 //		RequestDispatcher rd = getServletContext().getRequestDispatcher("/Welcome.jsp");
 //		rd.forward(request, response);
 //		response.sendRedirect("/CK_LTM/Welcome");
-	}
-}
-class Xuli extends Thread
-{
-	int n;
-	int i=0;
-	String result = "";
-	public Xuli(int n)
-	{
-		this.n = n;
-	}
-	public void run()
-	{
-		ArrayList<Integer> a = new ArrayList<Integer>();
-	    long x =0;
-	    a.add(1);
-		for(int i = 2; i <= n; i++)
-		{
-			for(int j = 0; j < a.size(); j++)
-			{
-				long y = x;
-				x = (a.get(j)*i + x)/10;
-				int z = (int)(a.get(j)*i + y)%10;
-				a.set(j,z); 
-			}
-			while(x != 0)
-			{
-				int z = (int)x%10;
-				a.add(z);
-				x/=10;
-			}
-		}
-		for(int i = a.size() -1; i >= 0; i--)
-		{
-			result += a.get(i);
-		}
-		System.out.println(result);
 	}
 }
