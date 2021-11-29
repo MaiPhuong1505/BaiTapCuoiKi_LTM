@@ -1,7 +1,3 @@
-<%@page import="model.dao.DAO"%>
-<%
-new DAO().calculate_exponent(9000, 9000);
-%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
     <!DOCTYPE html>
     <html>
